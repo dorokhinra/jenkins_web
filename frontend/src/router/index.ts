@@ -1,29 +1,23 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Api from '@/views/core/Api.vue'
-import Common from '@/views/core/Common.vue'
-import Ascn from '@/views/adapters/Ascn.vue'
-import Mnis from '@/views/adapters/Mnis.vue'
+import Services from '@/views/Services.vue'
+import Home from '@/views/Home.vue'
+import Groups from '@/views/Groups.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Api',
-    component: Api
+    name: 'Home',
+    component: Home
   },
   {
-    path: '/Common',
-    name: 'Common',
-    component: Common
+    path: '/Groups',
+    name: 'Groups',
+    component: Groups
   },
   {
-    path: '/Ascn',
-    name: 'Ascn',
-    component: Ascn
-  },
-  {
-    path: '/Mnis',
-    name: 'Mnis',
-    component: Mnis
+    path: '/Services',
+    name: 'Services',
+    component: Services
   }
 ]
 

@@ -1,10 +1,10 @@
 <template>
-<h1>mnis</h1>
+  <h1>Добро пожаловать!</h1>
 </template>
 
 <script lang="ts">
 export default {
-  name: "Mnis"
+  name: "Home"
 }
 </script>
 

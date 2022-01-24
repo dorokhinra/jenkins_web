@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-// ?mport { store } from './store'
+import { store } from './store'
 import PrimeVue from 'primevue/config'
 import 'primevue/resources/themes/saga-blue/theme.css'       //theme
 import 'primevue/resources/primevue.min.css'       //core css
@@ -78,8 +78,8 @@ import Tooltip from 'primevue/tooltip'
 // initValidationInterceptor(store)
 
 const app = createApp(App)
-// app.use(PrimeVue)
-// app.use(store)
+
+app.use(store)
 app.use(router)
 app.use(ToastService)
 app.use(PrimeVue)

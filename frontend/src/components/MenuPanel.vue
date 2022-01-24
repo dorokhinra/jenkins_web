@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent, inject, ref } from 'vue'
-import { Menu } from '@/interfaces/common'
+import { Menu } from '@/interfaces/App'
 
 export default defineComponent({
   name: "MenuPanel",
