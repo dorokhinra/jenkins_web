@@ -73,9 +73,9 @@ import Tag from 'primevue/tag'
 import ToastService from 'primevue/toastservice'
 import Tooltip from 'primevue/tooltip'
 
-// import { initValidationInterceptor } from '@/interseptors'
+import { initValidationInterceptor } from '@/api'
 
-// initValidationInterceptor(store)
+initValidationInterceptor(store)
 
 const app = createApp(App)
 
